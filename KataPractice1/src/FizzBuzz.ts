@@ -1,7 +1,7 @@
 export class FizzBuzz {
-  constructor(printer: () => void) {}
+  constructor(private printer: (line: string) => void) {}
 
   run(number: number) {
-    throw new Error('Method not implemented.');
+    this.printer(number.toString());
   }
 }
