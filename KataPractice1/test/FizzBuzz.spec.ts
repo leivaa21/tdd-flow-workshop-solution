@@ -1,7 +1,6 @@
 import { FizzBuzz } from '../src/FizzBuzz';
 
 describe('FizzBuzz', () => {
-
   let printer: jest.Mock;
   let fizzBuzz: FizzBuzz;
 
@@ -30,5 +29,4 @@ describe('FizzBuzz', () => {
     fizzBuzz.run(number);
     expect(printer).toHaveBeenCalledWith('FizzBuzz');
   })
-
 });

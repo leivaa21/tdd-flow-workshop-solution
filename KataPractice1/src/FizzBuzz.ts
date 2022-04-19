@@ -10,7 +10,6 @@ export class FizzBuzz {
     if (isMultipleOfThree && isMultipleOfFive) return 'FizzBuzz'
     if (isMultipleOfThree) return 'Fizz';
     if (isMultipleOfFive) return 'Buzz';
-
     return number.toString();
   }
 }

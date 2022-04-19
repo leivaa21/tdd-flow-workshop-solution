@@ -33,5 +33,4 @@ export class CoffeeMachine {
     }
     return `${this.mainDrink}:: - ${this.clock()}`;
   }
-
 }

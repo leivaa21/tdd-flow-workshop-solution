@@ -73,5 +73,4 @@ describe('Coffee Machine', () => {
 
     expect(drinkMaker).toHaveBeenCalledWith('C:1:0 - DATE');
   });
-
 });
